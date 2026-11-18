@@ -1,9 +1,5 @@
 # 🎣 Phishing Simulation & Credential Harvesting Lab
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Gophish](https://img.shields.io/badge/Gophish-FF5722?style=for-the-badge&logo=gophish&logoColor=white)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-T1566-red?style=for-the-badge)
-
 ## 📌 Executive Summary
 Phishing remains the primary initial access vector for modern cyberattacks (MITRE ATT&CK **T1566**). This repository provides an isolated, containerized environment for Red Teamers and IT Administrators to simulate real-world phishing campaigns safely.
 
@@ -25,14 +21,6 @@ git clone https://github.com/sunsum24/Phishing-Simulation-Lab.git
 cd Phishing-Simulation-Lab
 docker-compose up -d
 
-
----
-
-### 🔴 Part 2: The Execution & Defense
-
----
-
-## 🎯 Executing a Campaign (Walkthrough)
 
 ### 1. Configure Sending Profile
 1. In Gophish, go to **Sending Profiles** -> **New Profile**.
